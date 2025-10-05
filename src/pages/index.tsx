@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Geist, Geist_Mono } from "next/font/google";
 import Hero3D from "@/components/Hero3D";
-
+import Services3D from "@/components/Services3D";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -20,6 +20,7 @@ export default function Home() {
     // >
     <>
       <Hero3D />
+      <Services3D />
     </>
 
     // </div>
